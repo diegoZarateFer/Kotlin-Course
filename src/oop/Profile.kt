@@ -1,4 +1,4 @@
-package poo
+package oop
 
 fun main() {
     print("Name: ")
@@ -21,4 +21,8 @@ fun main() {
 
     println("Name = ${personA.name} \nAge = ${personA.age}")
     println("Name = ${personB.name} \nAge = ${personB.age}")
+
+    personA.sayHello()
+
+    personB.run()
 }
