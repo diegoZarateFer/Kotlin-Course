@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     println("Enter number of seconds: ");
     val numberOfSeconds = readln().toInt()

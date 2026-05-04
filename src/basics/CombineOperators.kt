@@ -1,5 +1,5 @@
-/*
-fun main() {
+package basics/*
+fun Basics.main() {
     print("The weather is good? true / false:")
     val weatherIsGood = readln().toBoolean()
 

@@ -1,5 +1,5 @@
-/*
-* fun main() {
+package basics/*
+* fun Basics.main() {
     val index = readln().toInt()
 
     val day = if(index == 1) {
@@ -24,7 +24,7 @@
 }*/
 
 /*
-* fun main() {
+* fun Basics.main() {
     val index = readln().toInt()
 
     val day = when(index) {

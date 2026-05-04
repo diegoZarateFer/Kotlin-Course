@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
 
     print("Enter your rating (1 - 5): ")

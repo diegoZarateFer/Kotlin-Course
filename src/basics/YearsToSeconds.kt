@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     print("Enter Years: ")
     val years = readln().toInt()

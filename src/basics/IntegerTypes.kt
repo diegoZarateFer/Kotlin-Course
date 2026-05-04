@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var a: Byte = 127 // Takes 1 byte of memory (-127, 127)
     a++

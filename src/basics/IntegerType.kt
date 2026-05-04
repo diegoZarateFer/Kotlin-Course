@@ -1,4 +1,4 @@
-/*fun main() {
+package basics/*fun Basics.main() {
     print("How many apples does John have?: ")
     val john : Int = readln().toInt()
     val nick : Int = john + 5
@@ -9,7 +9,7 @@
 
 /*
 
-fun main() {
+fun Basics.main() {
     print("Enter person A age: ")
     val ageA: Int = readln().toInt()
 

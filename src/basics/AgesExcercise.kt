@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     print("Enter first person age: ")
     val firstAge = readln().toInt()

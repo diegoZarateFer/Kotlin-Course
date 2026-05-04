@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     val numbers = 0..1000
 

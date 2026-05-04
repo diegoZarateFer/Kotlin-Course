@@ -1,11 +1,11 @@
-import kotlin.random.Random
+package basics
 
 /*
 * 1. Repeat Function
 * */
 
 /*
-* fun main() {
+* fun Basics.main() {
     val repeats = readln().toInt()
     repeat(repeats) {
         println("HELLO USER!!!")
@@ -13,7 +13,7 @@ import kotlin.random.Random
 }*/
 
 /*
-* fun main() {
+* fun Basics.main() {
     val correctNumber = Random.nextInt(0,100)
     var userHasWon = false
 
@@ -35,7 +35,7 @@ import kotlin.random.Random
 }*/
 
 /*
-* fun main() {
+* fun Basics.main() {
     print("Age: ")
     val age = readln().toInt()
 

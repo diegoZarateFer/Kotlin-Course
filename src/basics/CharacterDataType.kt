@@ -1,7 +1,7 @@
-/* CHARACTER DATA TYPE */
+package basics/* CHARACTER DATA TYPE */
 
 /*
-* fun main() {
+* fun Basics.main() {
     var a: Char = 'A' // Use single quotes
     println(a)
 
