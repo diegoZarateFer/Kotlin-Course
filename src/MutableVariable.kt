@@ -1,6 +1,7 @@
 /*
 * val: for immutable variables.
-* var: allows to change the value fo a variable.
+* var: allows to change the value fo a variable. Should be as minimum used
+*       as possible.
 * */
 
 fun main() {
