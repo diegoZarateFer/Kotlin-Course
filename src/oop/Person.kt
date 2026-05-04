@@ -1,10 +1,10 @@
 package oop
 
 class Person {
-    var name: String = ""
-    var age: Int = 0
+    val name: String;
+    val age: Int;
 
-    fun init(name: String,age:Int) {
+    constructor(name: String,age:Int) {
         this.name = name
         this.age = age
     }

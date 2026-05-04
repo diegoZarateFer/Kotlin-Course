@@ -19,12 +19,12 @@ fun main() {
     print("Enter product price: ")
     val price = readln().toInt()
 
-    val productCard = ProductCard()
-    productCard.name = name
-    productCard.brand = brand
-    productCard.size = size
-    productCard.price = price
+    val productCard = ProductCard(
+        name = name,
+        brand = brand,
+        size = size,
+        price = price,
+    )
 
-    productCard.init(brand=brand,size=size,name=name,price=price)
     productCard.printInfo()
 }

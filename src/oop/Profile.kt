@@ -7,8 +7,7 @@ fun main() {
     print("Age: ")
     val age = readln().toInt()
 
-    val person = Person()
-    person.init(age = age, name = name)
+    val person = Person(age = age, name = name)
 
     person.sayHello()
     person.printInfo()

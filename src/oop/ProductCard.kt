@@ -1,13 +1,14 @@
 package oop
 
 class ProductCard {
-    var name: String = ""
-    var brand: String = ""
+    val name: String
+    val brand: String
 
-    var size: Float = 0F
-    var price: Int = 0
+    val size: Float
+    val price: Int
 
-    fun init(name: String, brand: String, size: Float, price: Int) {
+    // A constructor is called automatically when instantiating an object.
+    constructor(name: String, brand: String, size: Float, price: Int) {
         this.name = name
         this.brand = brand
         this.size = size
