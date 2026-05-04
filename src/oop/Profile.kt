@@ -7,22 +7,9 @@ fun main() {
     print("Age: ")
     val age = readln().toInt()
 
-    val personA = Person()
-    val personB = Person()
+    val person = Person()
+    person.init(age = age, name = name)
 
-    personA.name = name
-    personA.age = age
-
-    print("Person B name: ")
-    personB.name = readln()
-
-    print("Person B age: ")
-    personB.age = readln().toInt()
-
-    println("Name = ${personA.name} \nAge = ${personA.age}")
-    println("Name = ${personB.name} \nAge = ${personB.age}")
-
-    personA.sayHello()
-
-    personB.run()
+    person.sayHello()
+    person.printInfo()
 }
