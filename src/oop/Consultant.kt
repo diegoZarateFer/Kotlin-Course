@@ -1,5 +1,7 @@
 package oop
 
+import kotlin.random.Random
+
 class Consultant(val name: String, val age: Int = 0) {
 
     fun sayHello() {
@@ -9,5 +11,14 @@ class Consultant(val name: String, val age: Int = 0) {
         }
 
         println(result)
+    }
+
+    fun serveCustomers(): Int {
+        val servedClients = Random.nextInt(0,100)
+        repeat(servedClients) {
+            print("The customer is served... ")
+        }
+
+        return servedClients
     }
 }

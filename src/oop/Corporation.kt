@@ -5,4 +5,7 @@ fun main() {
     val assistant = Assistant(name = "John")
 
     director.takeCoffee(assistant)
+
+    val consultant = Consultant("Carlos")
+    director.getConsultantToWork(consultant)
 }
