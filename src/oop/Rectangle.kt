@@ -1,10 +1,6 @@
 package oop
 
-class Rectangle (val width: Int, val height: Int) {
-
-    constructor() : this(0)
-
-    constructor(size: Int) : this(size, size)
+class Rectangle (val width: Int = 0, val height: Int = 0) {
 
     fun draw() {
         repeat(height) {
