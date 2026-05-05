@@ -1,6 +1,6 @@
-package oop
+package oop.corporation
 
-class Assistant(val name: String) {
+class Assistant(name: String, age: Int = 0): Worker(name = name, age = age) {
     fun bringCoffee(count: Int = 1, drinkName: String = "Cappuccino"): String {
        val steps = listOf<String>(
            "Get Up",

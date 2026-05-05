@@ -1,8 +1,8 @@
-package oop
+package oop.corporation
 
 import kotlin.random.Random
 
-class Consultant(val name: String, val age: Int = 0) {
+class Consultant(name: String, age: Int = 0) : Worker(name = name, age = age) {
 
     fun sayHello() {
         var result = "Hello! My name is $name."

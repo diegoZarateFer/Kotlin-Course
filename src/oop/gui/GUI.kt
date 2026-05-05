@@ -1,4 +1,4 @@
-package oop
+package oop.gui
 
 fun main() {
     val rectangle = Rectangle(
