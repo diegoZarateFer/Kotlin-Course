@@ -1,7 +1,8 @@
 package oop
 
 fun main() {
-    val consultant = Consultant(name = "Nick")
+    val director = Director(name = "Andrew", age = 25)
+    val assistant = Assistant(name = "John")
 
-    consultant.sayHello()
+    director.takeCoffee(assistant)
 }
